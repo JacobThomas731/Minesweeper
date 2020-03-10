@@ -302,15 +302,12 @@ def find_clicked_coords():
     """
     pos = pygame.mouse.get_pos()
     coords = None
-    flag = False
-    for x in range(SIZE[1]):
-        for y in range(SIZE[0]):
-            if GRID[x][y]['rect'].collidepoint(pos):
-                coords = (x, y)
-                flag = True
-                break
-        if flag == True:
-            break
+    i, j = pos
+    i = ((i-8) // 31)
+    j = ((j-96) // 31)
+    if 0 <= i < SIZE[0] and 0 <= j < SIZE[1]:
+        if GRID[j][i]['rect'].collidepoint(pos):
+            coords = (j, i)
     return coords
 
 
