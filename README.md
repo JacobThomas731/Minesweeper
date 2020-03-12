@@ -13,7 +13,7 @@ It is a popular casual game and since then has been featured in many computing s
 For this project *pygame* module was used. Since the game is simple and the code short, procedure oriented programming was used instead of object oriented programming.
 
 ## Launching
- The repository has both the code as well as an *exe* file (which will run in a *windows* platform). To run the code, *python* and *pygame* must be installed in the system and the images must in the adjacent folder. For *exe*, the images too must be in the adjacent folder.
+ The repository has both the code as well as an *exe* file (which will run in a *windows* platform). To run the code, *python* and *pygame* must be installed in the system and the images must in the adjacent folder. 
 
 ## Development
 As stated, this game was created in *python* using the *pygame* module. Procedural oriented programming was followed. While I havent focused heavily on efficiency, I did strive to reduce the time space complexity wherever possible.
