@@ -6,6 +6,8 @@
 # discussing with me about this project.
 import pygame, sys, random, os
 from queue import Queue
+if sys.platform in ["WIN32", "WIN64"]:
+        os.environ["SDL_VIDEO_CENTERED"] = "1"
 pygame.init()
 flag = pygame.image.load('minesweeper_images/redflag1.png')
 grayTile = pygame.image.load('minesweeper_images/graytile.png')
@@ -38,8 +40,6 @@ def main():
     BOMB = menuSelection[2] # no of BOMBS in the game
     TOTAL_FLAGS = BOMB
     WIN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.RESIZABLE)
-    if sys.platform in ["WIN32", "WIN64"]:
-        os.environ["SDL_VIDEO_CENTERED"] = "1"
     pygame.display.set_caption('Minesweeper')
     WIN.fill((146, 146, 146))
     running = True
@@ -360,8 +360,6 @@ def main_menu():
     global SCREEN_WIDTH, SCREEN_HEIGHT
     (SCREEN_WIDTH, SCREEN_HEIGHT) = (322, 410)
     WIN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.RESIZABLE)
-    if sys.platform in ["WIN32", "WIN64"]:
-        os.environ["SDL_VIDEO_CENTERED"] = "1"
     WIN.fill((146, 146, 146))
     levels = {
         'easy' : {
