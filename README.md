@@ -1,6 +1,12 @@
 # Minesweeper game using Python
 A simple minesweeper game made with Python using the pygame module.
 
+## Ingame screenshots
+![Main menu](./minesweeper_images/git1.png)
+  
+  
+![Hard Level](./minesweeper_images/git2.png)
+
 ## Introduction
 *Minesweeper* is classic, single player puzzle game that orginated in the 1960s.
 It is a popular casual game and since then has been featured in many computing systems. More about *minesweeper* and how to play it can be found here - https://en.wikipedia.org/wiki/Minesweeper_(video_game)
