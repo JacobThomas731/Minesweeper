@@ -16,7 +16,10 @@ It is a popular casual game and since then has been featured in many computing s
   - To learn and understand the workings of *pygame* by creating a simple classic game.
 
 ## Technologies use
-For this project *pygame* module was used. Since the game is simple and the code short, procedure oriented programming was used instead of object oriented programming.
+For this project *pygame* module was used. Since the game is simple and the code short, procedure oriented programming was used instead of object oriented programming.\
+Therefore, to run the code, you'll need:
+ - Python 3.x
+ - Pygame module
 
 ## Launching
  The repository has both the code as well as an *exe* file (which will run in a *windows* platform). To run the code, *python* and *pygame* must be installed in the system and the images must in the adjacent folder. 
